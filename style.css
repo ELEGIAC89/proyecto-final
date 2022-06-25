@@ -1,0 +1,193 @@
+*{  margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+    background-color: rgba(127, 255, 212, 0.637);
+ }
+ /*header*/
+ .header {
+    background-color: rgb(24, 107, 107);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+ .titulo{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(252, 228, 13);
+    text-transform: uppercase;
+    
+ }
+ .nav {
+    display: flex;
+    justify-content: space-between;
+ }
+ .nav-link {
+    text-decoration: none ;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+ }
+.logo {
+    padding: 0;
+    object-fit: cover;
+    height: 79px;
+}
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+    text-transform: uppercase;
+}
+.nav-menu-link:hover {
+    background-color: rgb(0, 80, 253);
+    transition: 0.5s;
+}
+
+/* main */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 350px 100px;
+    width: 1260px;
+}
+.carrusel {
+    grid-column: 1 / span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+}
+
+.carrusel-item {
+    width: 100%;
+    height: auto;
+}
+.mochila {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+.mochila-item {
+    height: 60%;
+    width: 60%;
+}
+.remeras {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.remeras-item {
+    height: 60%;
+    width: 60%;
+}
+.tazas {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.tazas-item{
+    height: 60%;
+    width: 60%;
+}
+.sub-tit-mochila {
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sub-tit-remeras{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sub-tit-tazas{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+/*footer*/
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(255, 238, 4);
+    text-align: center;
+}
+.volver-inicio {
+    text-decoration: none;
+}
+.volver-inicio {
+    text-decoration: none;
+    background-color: rgb(33, 243, 173);
+    color: black;
+    border: solid 2px rgb(253, 253, 253);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    margin-top: 5%;
+}
+.logo-wapp{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-wpp-img {
+    height: 50%;
+}
+.donde-encontrarnos{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.medios-pagos{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(52, 52, 250);
+}
+/*sublimados*/
+.body-sublimados{
+    background-color: black;
+}
+.sublimacion-tit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: rgb(0, 255, 21);
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
