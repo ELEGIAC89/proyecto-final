@@ -216,4 +216,10 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+    .portfolio div img {
+        width: 100%;
+    }
+    .sublimacion-tit {
+        font-size: 25px;
+    }
 }
