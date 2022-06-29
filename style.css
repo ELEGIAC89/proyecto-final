@@ -80,6 +80,7 @@
 }
 
 /*footer*/
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
@@ -115,10 +116,6 @@ footer {
 }
 .medios-pagos{
     font-size: 20px;
-}
-.medios-p {
-    background-color: aquamarine;
-
 }
 
 
