@@ -94,7 +94,7 @@ footer {
     background-color: black;
     text-transform: uppercase;
 }
-
+/*info de l pagina*/
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -141,6 +141,16 @@ footer {
     align-items: center;
     justify-items: center;
 }
+/*contactos*/
+.donde-encontrarnos-contacto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+
+
 @media (max-width: 768px) {
     .header {
         position: static;
