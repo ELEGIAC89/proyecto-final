@@ -4,7 +4,7 @@
  body {
     font-family: sans-serif;
     padding: 90px 20px 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 240, 200, 0.192);
  }
 
  /*header*/
@@ -18,10 +18,6 @@
     top: 0;
     left: 0;
  }
-
-.nav-menu{
-    display: flex;
-}
 
 .nav-item {
     font-size: 20px;
@@ -37,6 +33,7 @@
 .slide {
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 20%;
 }
 .slide img {
     height: 80vh;
@@ -47,15 +44,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.carrusel {
-    grid-column: 1 / span 3;
-    width: 100%; 
-}
 
-.carrusel-item {
-    width: 100%;
-    height: auto;
-}
 .mochila {
     display: flex;
     flex-direction: column;
@@ -93,22 +82,18 @@
 /*footer*/
 footer {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: rgb(255, 238, 4);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
+    margin-top: 20px;
 }
-.volver-inicio {
-    text-decoration: none;
+
+.btn-primary{
+    margin-top: 10px;
+    background-color: black;
+    text-transform: uppercase;
 }
-.volver-inicio {
-    text-decoration: none;
-    background-color: rgb(33, 243, 173);
-    color: black;
-    border: solid 2px rgb(253, 253, 253);
-    margin-top: 8px;
-    margin-bottom: 8px;
-    display: inline-block;
-}
+
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -129,13 +114,14 @@ footer {
     height: 50%;
 }
 .medios-pagos{
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-    justify-content: space-around;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(52, 52, 250);
+    font-size: 20px;
 }
+.medios-p {
+    background-color: aquamarine;
+
+}
+
+
 /*sublimados*/
 .body-sublimados{
     background-color: black;
