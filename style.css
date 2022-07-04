@@ -16,6 +16,7 @@
     width: 100%;
     margin-bottom: 10%;
 
+
  }
 
 .nav-item {
@@ -56,6 +57,7 @@
     justify-content: center; 
     font-size: 25px;
 }
+
 .mochila-item {
     height: 60%;
     width: 60%;
@@ -67,12 +69,25 @@
     justify-content: center; 
     font-size: 25px;
 }
+.remeras:hover{
+    font-size: 40px;
+}
 .remeras-item {
     height: 60%;
     width: 60%;
 }
 
-
+.tazas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-size: 25px;
+}
+.tazas-item {
+    height: 60%;
+    width: 60%;
+}
 /*footer*/
 
 footer {
@@ -111,7 +126,12 @@ footer {
 .medios-pagos{
     font-size: 20px;
 }
-
+/*packs*/
+#packs img {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
 
 /*sublimados*/
 .body-sublimados{
