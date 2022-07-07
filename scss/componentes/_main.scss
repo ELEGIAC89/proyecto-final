@@ -1,0 +1,80 @@
+/* main */
+
+.slide {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    .slide 
+        img {
+            height: 80vh;
+    }
+}
+.container-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rounded {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.mochila {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-size: 25px;
+        .mochila-item {
+            height: 60%;
+            width: 60%;
+    }
+}
+.remeras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-size: 25px;
+       .remeras-item {
+            height: 60%;
+            width: 60%;
+       }
+    }                  
+.tazas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-size: 25px;
+
+        .tazas-item {
+            height: 60%;
+            width: 60%;
+        }
+    }
+/*info de l pagina*/
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    margin-top: 5%;
+}
+.logo-wapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .logo-wpp-img {
+            height: 50%;
+        }
+}
+.donde-encontrarnos{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.medios-pagos{
+    font-size: 20px;
+}

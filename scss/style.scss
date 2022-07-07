@@ -1,0 +1,23 @@
+*{  margin: 0;
+    padding: 0;
+ }
+
+ body { 
+    font-family: sans-serif;
+    padding: 0 2px 2px 2px;
+    background-color: rgba(0, 240, 200, 0.192);
+ }
+
+@import './variables';
+@import './componentes/header';
+@import './componentes/main';
+@import './componentes/contactos';
+@import './componentes/packs';
+@import './componentes/sublimados';
+@import './componentes/packs';
+@import './componentes/footer';
+@import './componentes/medias';
+
+
+
+
