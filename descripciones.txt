@@ -1,0 +1,18 @@
+        sass II y SEO 
+Agregue a los 5 HTML los Meta tags:
+    description
+    keywords
+
+Agregue a los Open Graphs:    
+     og:title 
+     og:description
+     og:image
+     og:image:width
+     og:image:height
+se corrigieron los titles de los 3 HTMLS: contactos, packs, y nosotros. 
+Se chequearon que todos los ALT esten con las descripcion
+
+Agregue extend y mapa al componente MAIN 
+pero mixin no pude agregarlo por que me arroja error y me saca los estilos a la pagina.
+
+
