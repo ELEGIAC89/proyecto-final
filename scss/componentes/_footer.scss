@@ -6,8 +6,11 @@ footer {
     margin-top: 20px;
 }
 
+/*agregando extends*/
+
 .btn-primary{
-    margin-top: 10px;
-    background-color: black;
-    text-transform: uppercase;
+    @extend %botones;
+}
+.texto_footer {
+    margin-bottom: 0px;
 }

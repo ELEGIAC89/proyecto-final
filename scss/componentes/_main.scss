@@ -1,55 +1,44 @@
 /* main */
 
 .slide {
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 20%;
-    .slide 
-        img {
-            height: 80vh;
-    }
+    width: 95%;
+    margin-left: 35px;
+    margin-bottom: 100px;
+} 
+.slide img {
+    height: 90vh;
 }
+
 .container-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.rounded {
-    margin-top: 30px;
-    margin-bottom: 150px;
-}
+    grid-template-rows: 1fr;
+  }
 
 .mochila {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    font-size: 25px;
+    @extend %flexbox;
+    font-size: map-get($itemsvarios, font-size);
         .mochila-item {
+            object-fit: scale-down;
             height: 60%;
             width: 60%;
-    }
+        }
 }
 .remeras {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    font-size: 25px;
+    @extend %flexbox;
+    font-size:map-get($itemsvarios, font-size);
        .remeras-item {
-            height: 60%;
-            width: 60%;
+        object-fit: scale-down;
+        height: 60%;
+        width: 60%;
        }
     }                  
 .tazas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    font-size: 25px;
+    @extend %flexbox;
+    font-size:map-get($itemsvarios, font-size);
 
         .tazas-item {
+            object-fit: scale-down;
             height: 60%;
             width: 60%;
         }

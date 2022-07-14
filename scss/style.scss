@@ -7,8 +7,9 @@
     padding: 0 2px 2px 2px;
     background-color: rgba(0, 240, 200, 0.192);
  }
-
-@import './variables';
+ 
+@import './base/variables';
+@import './base/mapas';
 @import './componentes/header';
 @import './componentes/main';
 @import './componentes/contactos';
@@ -17,6 +18,8 @@
 @import './componentes/packs';
 @import './componentes/footer';
 @import './componentes/medias';
+@import './base/mixins';
+@import './base/extends';
 
 
 
