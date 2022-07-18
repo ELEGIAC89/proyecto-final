@@ -1,5 +1,4 @@
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .header {
         position: static;
     }
@@ -8,6 +7,10 @@
     }
     .nav-menu {
         flex-direction: column;
+    }
+    .navbar-brand{
+        font-size: 15px;
+        text-transform: uppercase;
     }
     .titulo {
         margin-top: 5px;
@@ -21,13 +24,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat (4,1fr) ;
-    }
-    .info {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        margin-top: 1%;
+        grid-template-rows: repeat (4,1fr);
     }
     .logo-wpp-img {
         width: 50%;
@@ -35,15 +32,13 @@
     }
     .logo-wapp {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .portfolio{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-    }
-    .portfolio div img {
-        width: 100%;
     }
     .sublimacion-tit {
         font-size: 25px;
