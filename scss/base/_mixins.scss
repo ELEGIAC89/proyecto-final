@@ -1,5 +1,11 @@
-@mixin cuadrado {
-    object-fit: scale-down;
-    height: 60%;
-    width: 60%;
+@mixin titulos ($ml, $mr, $mb){
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: $mb;
+    text-transform:capitalize;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin-left: $ml;
+    margin-right: $mr;
 }

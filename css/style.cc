@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 2px 2px 2px;
+  background-color: rgba(0, 240, 200, 0.192);
+}
+
+.btn-primary {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+.tazas, .remeras, .mochila {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background: linear-gradient(rgb(253, 253, 253), rgb(0, 240, 200));
+  height: 10%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.header .nav-item {
+  font-size: 20px;
+}
+
+.slide {
+  width: 95%;
+  margin-left: 35px;
+  margin-bottom: 100px;
+}
+
+.slide img {
+  height: 90vh;
+}
+
+.container-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.titulo-main {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: xx-large;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  margin-left: 30px;
+  margin-right: 35px;
+}
+.titulo-main-info {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: xx-large;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  margin-left: 30px;
+  margin-right: 35px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.mochila {
+  font-size: 20px;
+}
+.mochila .mochila-item {
+  object-fit: scale-down;
+  height: 60%;
+  width: 60%;
+}
+
+.remeras {
+  font-size: 20px;
+}
+.remeras .remeras-item {
+  object-fit: scale-down;
+  height: 60%;
+  width: 60%;
+}
+
+.tazas {
+  font-size: 20px;
+}
+.tazas .tazas-item {
+  object-fit: scale-down;
+  height: 60%;
+  width: 60%;
+}
+
+/*info de l pagina*/
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  margin-top: 5%;
+}
+
+.logo-wapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donde-encontrarnos {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+}
+
+.medios-pagos {
+  font-size: 20px;
+}
+
+.donde-encontrarnos-contacto {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+#packs img {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.body-sublimados {
+  background-color: black;
+}
+
+#galeria .col-lg-4 {
+  padding: 20px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 300px;
+}
+
+#galeria img:hover {
+  border: 5px solid black;
+}
+
+#packs img {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*agregando extends*/
+.texto_footer {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: static;
+  }
+  .nav {
+    flex-direction: column;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .titulo {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .titulo-main {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    font-size: x-small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin-left: 5px;
+    margin-right: 4px;
+  }
+  .titulo-info {
+    font-size: small;
+  }
+  .slide {
+    width: 98%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .slide img {
+    height: 30vh;
+  }
+  .nav-menu-item {
+    font-size: 15px;
+    margin: 0 3px;
+    line-height: 20px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat 4, 1fr;
+  }
+  .container-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px;
+  }
+  .logo-wpp-img {
+    width: 50%;
+    margin: 20px;
+  }
+  .logo-wapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .sublimacion-tit {
+    font-size: 25px;
+  }
+  .donde-encontrarnos {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+  }
+  .medios-pagos {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .container-img h2 {
+    font-size: small;
+  }
+  .mochila h3 {
+    font-size: 10px;
+  }
+  .remeras h3 {
+    font-size: 10px;
+  }
+  .tazas h3 {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.cc.map */
