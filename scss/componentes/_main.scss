@@ -2,11 +2,10 @@
     width: 95%;
     margin-left: 35px;
     margin-bottom: 100px;
-} 
-.slide img {
-    height: 90vh;
+    & img {
+        height: 91vh;
+        }
 }
-
 .container-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -14,11 +13,10 @@
   }
 .titulo-main {
     @include titulos (30px, 35px, 20px); 
-        &-info{
-            @include titulos (30px, 35px, 20px);
-        }
+}    
+.titulo-info {
+    @include titulos (30px, 35px, 20px);
 }
-
 .navbar-brand {
     font-size: 35px;
 }
@@ -51,12 +49,12 @@
         }
     }
 /*info de l pagina*/
-
 .container-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px;
-    margin-top: 5%;
+    margin-top: 10px;
+    margin-left: 25px;
 }
 .logo-wapp{
     display: flex;

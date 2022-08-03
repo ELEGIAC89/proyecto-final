@@ -43,11 +43,6 @@
         margin: 0 3px;
         line-height: 20px;
     }
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat (4,1fr);
-    }
     .container-main {
         display: grid;
         grid-template-columns: 1fr;
