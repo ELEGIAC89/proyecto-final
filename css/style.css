@@ -189,6 +189,9 @@ footer {
   .nav-menu {
     flex-direction: column;
   }
+  .nav-link {
+    font-size: x-small;
+  }
   .navbar-brand {
     font-size: 15px;
     text-transform: uppercase;
@@ -199,7 +202,7 @@ footer {
   }
   .titulo-main {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-    font-size: x-small;
+    font-size: small;
     font-style: italic;
     text-align: center;
     margin-bottom: 2px;
@@ -229,14 +232,11 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 180px;
   }
-  .logo-wpp-img {
-    width: 50%;
-    margin: 20px;
-  }
   .logo-wapp {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 15px;
   }
   .portfolio {
     display: grid;
@@ -244,16 +244,18 @@ footer {
     grid-template-rows: auto;
   }
   .sublimacion-tit {
-    font-size: 25px;
+    font-size: 30px;
   }
   .donde-encontrarnos {
     display: flex;
     justify-content: center;
     height: 20%;
+    margin-right: 24px;
   }
   .medios-pagos {
     font-size: 10px;
     margin-bottom: 5px;
+    margin-right: 24px;
   }
   .container-img h2 {
     font-size: small;
